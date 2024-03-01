@@ -21,7 +21,7 @@ JSSales_DF = spark.read.format("csv").option("header", "false").load(JSSales)
 # COMMAND ----------
 
 # Display the data DataFrame
-display(JSSales_df)
+display(JSSales_DF)
 
 # COMMAND ----------
 
